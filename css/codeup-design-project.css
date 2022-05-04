@@ -1,0 +1,12 @@
+.icons-1{
+    height: 105px;
+    width: 105px;
+    border-radius: 50px;
+    border: 8px solid blue;
+}
+.badge{
+    height: 18px;
+    width: 18px;
+    border-radius: 50px;
+    background-color: yellow;
+}
