@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bitter:wght@100&display=swap" rel="stylesheet">
     <meta charset="UTF-8" name="viewport" content="width=device width,initial scale=1">
     <title>Design project</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -10,39 +13,107 @@
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/codeup-design-project.css">
 </head>
-<body>
-<div class="container">
+<body style="background-color: #f0f0f0">
+<nav class="navbar navbar-expand-lg navbar-light "style="background-color:#f0f0f0">
+    <div class="container-fluid">
+        <a class="navbar-brand " href="#"><img class="icon" src="img/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-baseline">
+                <li class="nav-item">
+                    <a class="nav-link active" style="font-size: 30px" aria-current="page" href="#">codeup design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">WORK</a>
+                </li> <li class="nav-item">
+                    <a class="nav-link disabled">BLOG</a>
+                </li> <li class="nav-item">
+                    <a class="nav-link disabled">CONTACT</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<div class="container" >
     <div class="container">
-        <h1 class="container text-center mt-4 fw-bold" style="font-size: 45px">VISUAL DESIGN & WEB DEVELOPMENT</h1>
-        <h5 class=" text-center fw-bold" style="font-size: 30px">FROM PARK CITY, UTAH</h5>
+        <h1 class="container text-center mt-4 fw-bold" style="font-size: 53px">VISUAL DESIGN & WEB DEVELOPMENT</h1>
         <br>
-        <div class="d-flex justify-content-center">
-            <div class="mr-2">
-                <div class="icons-1 text-center"><i class="fa-solid fa-phone"></i>DESIGN</div>
-                <div class="icons-1  text-center"><i class="fa-solid fa-envelope"></i>SUPPORT</div>
-            </div>
-            <div class="ml-2">
-                <div class="icons-1 text-center"><i class="fa-brands fa-linkedin-in"></i>DEVELOP</div>
-                <div class="icons-1 text-center"><i class="fa-brands fa-github"></i>HOST</div>
+        <h3 class=" text-center fw-bold" style="font-size: 33px">FROM PARK CITY, UTAH</h3>
+        <br>
+        <div class="container ">
+            <div class="row  py-4 justify-content-evenly ">
+            <div class="icons-1 d-flex align-items-center justify-content-center"style="background-color: #e6563b"> DESIGN</div>
+            <div class="icons-1  d-flex align-items-center justify-content-center"style="background-color: #eb9d3a"> DEVELOP</div>
+        </div>
+            <div class="row py-4 justify-content-evenly">
+                <div class="icons-1 d-flex align-items-center justify-content-center"style="background-color: #7cb06c">SUPPORT</div>
+                <div class="icons-1 d-flex align-items-center justify-content-center"style="background-color: #00aba9">HOST</div>
             </div>
         </div>
+<hr class="d-none d-md-block ">
     </div>
     <br><br>
     <h6 class="text-center">SELECTED WORK</h6>
     <br><br>
-    <div class="container d-flex justify-content-center">
-        <div class="container">
-            <img src="img/apple-ipad.jpg" class="card-img-top" alt="apple-ipad">
-            <div class=" d-flex ">
-                <h5 class="card-title">Card title</h5>
-                <div class="badge ms-auto">D</div>
-                <div class="badge ">D</div>
-                <div class="badge">S</div>
-                <div class="badge">H</div>
-            </div>
+    <div class="container ">
+            <img src="img/apple-ipad.jpg" class="card-img-top " alt="apple-ipad" style=" border:5px solid #e6e6e6">
+            <div class=" d-flex"style="width: 98%">
+                <h5 class="card-title my-1">FEATURED PROJECT</h5>
+                <div class="ms-auto row d-flex justify-content-around my-1 ">
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #e6563b">D</div>
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #eb9d3a">D</div>
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #7cb06c">S</div>
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #00aba9">H</div>
+                </div>
         </div>
-    </div>
+        <br>
+        </div>
+    <div class="container ">
+            <img src="img/macbook.jpg" class="card-img-top" alt="apple-ipad"style=" border:5px solid #e6e6e6">
+            <div class=" d-flex" style="width: 98%">
+                <h5 class="card-title my-1">FEATURED PROJECT</h5>
+                <div class="ms-auto row d-flex my-1">
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #e6563b">D</div>
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #eb9d3a">D</div>
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #7cb06c">S</div>
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #00aba9">H</div>
+                </div>
+        </div>
+        <br>
+        </div>
+    <div class="container ">
+            <img src="img/man.jpg" class="card-img-top" alt="apple-ipad"style=" border:5px solid #e6e6e6">
+            <div class=" d-flex" style="width: 98%">
+                <h5 class="card-title my-1">FEATURED PROJECT</h5>
+                <div class="ms-auto row d-flex justify-content-around my-1">
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #e6563b">D</div>
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #eb9d3a">D</div>
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #7cb06c">S</div>
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #00aba9">H</div>
+                </div>
+        </div>
+        <br>
+        </div>
+    <div class="container ">
+            <img src="img/security.jpg" class="card-img-top" alt="apple-ipad"style=" border:5px solid #e6e6e6">
+            <div class=" d-flex"style="width: 98%">
+                <h5 class="card-title my-1">FEATURED PROJECT</h5>
+                <div class="ms-auto row d-flex justify-content-around my-1">
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #e6563b">D</div>
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #eb9d3a">D</div>
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #7cb06c">S</div>
+                    <div class="badge d-flex  justify-content-center mx-1 "style="background-color: #00aba9">H</div>
+                </div>
+        </div>
+        </div>
 </div>
+
 <br><br>
 </body>
 </html>
