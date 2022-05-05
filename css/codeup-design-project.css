@@ -3,14 +3,18 @@
     width: 105px;
     border-radius: 50px;
     border: 8px solid white;
-color: white;
+    color: white;
     font-weight: bold;
+    font-family: 'Anton', sans-serif;
 }
 .badge{
     height: 18px;
     width: 18px;
     border-radius: 50px;
-color:black
+    color:black;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 11px;
 }
 .icon{
     height: 50px;
@@ -29,4 +33,7 @@ body{
 }
 .gap{
     gap: 20px;
+}
+p{
+    font-family: "Roboto",sans-serif;
 }
