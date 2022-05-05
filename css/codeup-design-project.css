@@ -16,9 +16,17 @@ color:black
     height: 50px;
     width: 50px;
 }
-h1,h3{
+h1,h3,h2{
     font-family:'Anton', sans-serif ;
 }
 body{
     font-family:'Abel', sans-serif;
+}
+.ads-1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #e6e6e6;
+}
+.gap{
+    gap: 20px;
 }
